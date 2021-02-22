@@ -1,0 +1,12 @@
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\Dals.xml
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\SpringNetDemo.exe.config
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\SpringNetDemo.exe
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\SpringNetDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\Common.Logging.dll
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\Spring.Core.dll
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\Spring.Core.pdb
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\bin\Debug\Spring.Core.xml
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\obj\Debug\SpringNetDemo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\obj\Debug\SpringNetDemo.exe
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\obj\Debug\SpringNetDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\SpringNetDemo\obj\Debug\SpringNetDemo.csprojResolveAssemblyReference.cache

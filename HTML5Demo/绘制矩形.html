@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <canvas id="demoCanvas" width="500" height="500"> </canvas>
+    </div>
+    <script type="text/javascript">
+            //获取canvas元素
+            var canvasDom = document.getElementById("demoCanvas");
+            //获取上下文
+            var context = canvasDom.getContext('2d');
+            //指定绘制线样式，颜色
+            context.strokeStyle = "red";
+            //绘制矩形
+            context.strokeRect(10, 10, 190, 100);
+            for (var i = 0; i < 30; i++) {
+                context.strokeRect(10+i,10+i,190+i,100+i);
+            }
+            //以下演示填充矩形
+            context.fillStyle = "blue";
+            context.fillRect(110, 110, 100, 100);
+
+    </script>
+</body>
+</html>

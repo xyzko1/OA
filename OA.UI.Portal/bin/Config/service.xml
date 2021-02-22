@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object name="UserInfoService" type="OA.BLL.UserInfoService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="UserInfoDal"/>-->
+  </object>
+  <object name="OrderInfoService" type="OA.BLL.OrderInfoService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="ActionInfoService" type="OA.BLL.ActionInfoService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="RoleInfoService" type="OA.BLL.RoleInfoService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="R_UserInfo_ActionInfoService" type="OA.BLL.R_UserInfo_ActionInfoService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="UserInfoEXtService" type="OA.BLL.UserInfoEXtService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="WF_InstanceService" type="OA.BLL.WF_InstanceService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="WF_StepService" type="OA.BLL.WF_StepService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+  <object name="WF_TempService" type="OA.BLL.WF_TempService,OA.BLL" singleton="false">
+    <!--<property name="DbSession" ref="DbSession"/>
+    <property name="CurrentDal" ref="OrderInfoDal"/>-->
+  </object>
+</objects>

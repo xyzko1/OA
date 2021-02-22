@@ -1,0 +1,2 @@
+LeaveActivity.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

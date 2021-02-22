@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <canvas id="demoCanvas" width="500" height="500"> </canvas>
+    </div>
+    <script type="text/javascript">
+            //获取canvas元素
+            var canvasDom = document.getElementById("demoCanvas");
+            //获取上下文
+            var context = canvasDom.getContext('2d');
+
+            for (var i = 0; i < 12; i++) {
+                context.beginPath();
+                //坐标x.坐标y,半径，开始画的角度，结束的角度，是否顺时针
+                context.arc(i * 25, i * 25, i * 10, 0, Math.PI * 2, true);
+                context.closePath();
+                context.strokeStyle = "red";
+                context.stroke();
+
+                //context.fillStle = "rgba(255,0,0,0.25)";
+                //context.fill();
+            }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿@model OA.Model.ActionInfo
+@using OA.Model
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/jquery-easyui-1.3.1/demo/demo.css" rel="stylesheet" />
+    <link href="~/Content/jquery-easyui-1.3.1/themes/default/easyui.css" rel="stylesheet" />
+    <link href="~/Content/jquery-easyui-1.3.1/themes/icon.css" rel="stylesheet" />
+    <script src="~/Content/jquery-easyui-1.3.1/jquery-1.8.0.min.js"></script>
+    <script src="~/Content/jquery-easyui-1.3.1/jquery.easyui.min.js"></script>
+    <script src="~/Content/jquery-easyui-1.3.1/locale/easyui-lang-zh_CN.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <title>SetRole</title>
+
+    <script type="text/javascript">
+        function afterSetRole(data) {
+            if (data == "ok") {
+                window.parent.window.afterSetRoleSuccess();
+            }
+        }
+        function submitForm() {
+            $("form").submit()
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>给当前权限:@Model.ActionName 设置角色</h2>
+        <hr />
+        @{
+            using (Ajax.BeginForm("ProcessSetRole", "ActionInfo", new AjaxOptions() { OnSuccess = "afterSetRole" }))
+            {
+                <input type="hidden" name="UID" value="@Model.ID" />
+                int i = 0;
+                List<RoleInfo> allRoles = ViewBag.AllRoles;
+                List<int> exitRoles = ViewBag.ExitRoles;
+                foreach (var roleInfo in allRoles)
+                {
+                    string str = "ckb_" + roleInfo.ID;
+                    if (i % 3 == 0)
+                    {
+                        <br />
+                    }
+                    if (exitRoles.Contains(roleInfo.ID))
+                    {
+                        <input type="checkbox" name="@str" checked="checked" id="@str" value="@str" />
+                    }
+                    else
+                    {
+                        <input type="checkbox" name="@str" id="@str" value="@str" />
+                    }
+                    <label for="@str">@roleInfo.RoleName</label>
+                    i++;
+                }
+            }
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:StateMoneyActivity xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:WFWinformDemo;assembly=WFWinformDemo" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Deployment</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Net.Http</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>WFWinformDemo</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <local:StateMoneyActivity.Implementation>
+    <StateMachine>
+      <StateMachine.InitialState>
+        <State x:Name="__ReferenceID1" DisplayName="用户提交">
+          <State.Entry>
+            <Sequence>
+              <WriteLine Text="请用户输入审批金额：" />
+              <local:InputMoneyActivity>
+                <local:InputMoneyActivity.InBookMarkName>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">BookMarkName</mca:CSharpValue>
+                  </InArgument>
+                </local:InputMoneyActivity.InBookMarkName>
+                <local:InputMoneyActivity.OutMoney>
+                  <OutArgument x:TypeArguments="x:Int32">
+                    <mca:CSharpReference x:TypeArguments="x:Int32">Money</mca:CSharpReference>
+                  </OutArgument>
+                </local:InputMoneyActivity.OutMoney>
+              </local:InputMoneyActivity>
+              <WriteLine>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String">"输入的金额："+Money</mca:CSharpValue>
+                </InArgument>
+              </WriteLine>
+            </Sequence>
+          </State.Entry>
+          <State.Exit>
+            <WriteLine Text="离开用户提交" />
+          </State.Exit>
+          <State.Transitions>
+            <Transition DisplayName="T1">
+              <Transition.To>
+                <State x:Name="__ReferenceID2" DisplayName="经理审批">
+                  <State.Entry>
+                    <WriteLine Text="进入经理审批" />
+                  </State.Entry>
+                  <State.Exit>
+                    <WriteLine Text="离开经理审批" />
+                  </State.Exit>
+                  <State.Transitions>
+                    <Transition DisplayName="T2">
+                      <Transition.Condition>
+                        <mca:CSharpValue x:TypeArguments="x:Boolean">Money&lt;=100</mca:CSharpValue>
+                      </Transition.Condition>
+                      <Transition.To>
+                        <State x:Name="__ReferenceID0" DisplayName="FinalState" IsFinal="True">
+                          <State.Entry>
+                            <WriteLine Text="结束" />
+                          </State.Entry>
+                        </State>
+                      </Transition.To>
+                    </Transition>
+                    <Transition DisplayName="T3">
+                      <Transition.Condition>
+                        <mca:CSharpValue x:TypeArguments="x:Boolean">Money&gt;100</mca:CSharpValue>
+                      </Transition.Condition>
+                      <Transition.To>
+                        <State x:Name="__ReferenceID3" DisplayName="总监审批">
+                          <State.Entry>
+                            <WriteLine Text="进入总监审批" />
+                          </State.Entry>
+                          <State.Exit>
+                            <WriteLine Text="离开总监审批" />
+                          </State.Exit>
+                          <State.Transitions>
+                            <Transition DisplayName="T4" To="{x:Reference __ReferenceID0}" />
+                          </State.Transitions>
+                        </State>
+                      </Transition.To>
+                    </Transition>
+                  </State.Transitions>
+                  <State.Variables>
+                    <Variable x:TypeArguments="x:String" Name="variable1" />
+                  </State.Variables>
+                </State>
+              </Transition.To>
+            </Transition>
+          </State.Transitions>
+        </State>
+      </StateMachine.InitialState>
+      <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID2</x:Reference>
+      <x:Reference>__ReferenceID0</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
+      <StateMachine.Variables>
+        <Variable x:TypeArguments="x:Int32" Name="Money" />
+      </StateMachine.Variables>
+      <sads:DebugSymbol.Symbol>9xBcYfimosSNKUgyp4XQeu9XQEY6XFZTV29ya1NwYWNlXFdlYlRlc3QxXE9BXFdGV2luZm9ybURlbW9cU3RhdGVNb25leUFjdGl2aXR5LnhhbWwbMAOHARICAQEyB30PAgEcTw95FwIBDVwXYB8CAQloF3IfAgECNAtHFgIBIUoLSlQCAR9RE1FcAgEaVBNUXAIBGFkXWWMCARNlF2ViAgEPXhteYAIBC2obamQCAQdtG21kAgEFNQ01WgIBLTYNQSgCASZCDUYZAgEiSklKUQIBIFFRUVkCARtUUVRZAgEZXlleXQIBDGpZamECAQhtWW1hAgEGNUs1VwIBLj4TPl0CASo5EzldAgEnRBFEXQIBIw==</sads:DebugSymbol.Symbol>
+    </StateMachine>
+  </local:StateMoneyActivity.Implementation>
+</local:StateMoneyActivity>

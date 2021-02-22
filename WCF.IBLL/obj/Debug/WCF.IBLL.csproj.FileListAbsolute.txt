@@ -1,0 +1,8 @@
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\bin\Debug\WCF.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\bin\Debug\WCF.IBLL.pdb
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\bin\Debug\WCF.Model.dll
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\bin\Debug\WCF.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\obj\Debug\WCF.IBLL.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\obj\Debug\WCF.IBLL.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\obj\Debug\WCF.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\WCF.IBLL\obj\Debug\WCF.IBLL.pdb

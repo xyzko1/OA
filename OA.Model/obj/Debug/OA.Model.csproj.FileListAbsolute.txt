@@ -1,0 +1,12 @@
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\OA.Model.dll.config
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\EntityFramework.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\EntityFramework.xml
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\obj\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.Model\obj\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.Model\obj\Debug\OA.Model.csprojResolveAssemblyReference.cache

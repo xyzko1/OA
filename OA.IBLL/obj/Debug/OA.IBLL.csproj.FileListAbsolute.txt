@@ -1,0 +1,10 @@
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\obj\Debug\OA.IBLL.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\OA.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\OA.IBLL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\EntityFramework.dll
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\EntityFramework.xml
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\obj\Debug\OA.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.IBLL\obj\Debug\OA.IBLL.pdb

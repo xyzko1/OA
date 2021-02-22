@@ -1,0 +1,9 @@
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\bin\WCFWeb.dll.config
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\bin\WCFWeb.dll
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\bin\WCFWeb.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\obj\Debug\WCFWeb.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\obj\Debug\WCFWeb.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\obj\Debug\WCFWeb.dll
+F:\VSWorkSpace\WebTest1\OA\WCFWeb\obj\Debug\WCFWeb.pdb

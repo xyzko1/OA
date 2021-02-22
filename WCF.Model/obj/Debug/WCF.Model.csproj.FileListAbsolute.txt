@@ -1,0 +1,5 @@
+F:\VSWorkSpace\WebTest1\OA\WCF.Model\bin\Debug\WCF.Model.dll
+F:\VSWorkSpace\WebTest1\OA\WCF.Model\bin\Debug\WCF.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\WCF.Model\obj\Debug\WCF.Model.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\WCF.Model\obj\Debug\WCF.Model.dll
+F:\VSWorkSpace\WebTest1\OA\WCF.Model\obj\Debug\WCF.Model.pdb

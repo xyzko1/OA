@@ -1,0 +1,14 @@
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\obj\Debug\OA.EFDAL.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.EFDAL.dll.config
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.EFDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.EFDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\EntityFramework.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.IDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.IDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\EntityFramework.xml
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\obj\Debug\OA.EFDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.EFDAL\obj\Debug\OA.EFDAL.pdb

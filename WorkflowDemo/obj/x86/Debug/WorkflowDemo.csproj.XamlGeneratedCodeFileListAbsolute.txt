@@ -1,0 +1,6 @@
+obj\x86\Debug\_WorkflowDemo.g.cs
+obj\x86\Debug\Workflow1.g.cs
+obj\x86\Debug\LeaveActivity.g.cs
+obj\x86\Debug\WorkflowDemo_Workflow1_BeforeInitializeComponentHelper.cs
+obj\x86\Debug\WorkflowDemo_LeaveActivity_BeforeInitializeComponentHelper.cs
+F:\VSWorkSpace\WebTest1\OA\WorkflowDemo\obj\x86\Debug\WorkflowDemo_LeaveActivity_CompiledExpressionRoot.cs

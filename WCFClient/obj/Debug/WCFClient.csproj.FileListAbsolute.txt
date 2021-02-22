@@ -1,0 +1,14 @@
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCFClient.exe.config
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCFClient.exe
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCFClient.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCF.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCF.Model.dll
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCF.IBLL.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFClient\bin\Debug\WCF.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.Form1.resources
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.Properties.Resources.resources
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.csproj.GenerateResource.Cache
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.exe
+F:\VSWorkSpace\WebTest1\OA\WCFClient\obj\Debug\WCFClient.pdb

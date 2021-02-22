@@ -1,0 +1,9 @@
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\bin\HTML5Demo.dll.config
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\bin\HTML5Demo.dll
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\bin\HTML5Demo.pdb
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\obj\Debug\HTML5Demo.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\obj\Debug\HTML5Demo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\obj\Debug\HTML5Demo.dll
+F:\VSWorkSpace\WebTest1\OA\HTML5Demo\obj\Debug\HTML5Demo.pdb

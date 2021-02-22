@@ -1,0 +1,6 @@
+obj\Debug\DemoActivity.g.xaml
+obj\Debug\StateActivity.g.xaml
+obj\Debug\StateMoneyActivity.g.xaml
+obj\Debug\WFWinformDemo_DemoActivity_BeforeInitializeComponentHelper.txt
+obj\Debug\WFWinformDemo_StateActivity_BeforeInitializeComponentHelper.txt
+obj\Debug\WFWinformDemo_StateMoneyActivity_BeforeInitializeComponentHelper.txt

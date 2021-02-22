@@ -1,0 +1,12 @@
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\MencacheDemo.exe.config
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\MencacheDemo.exe
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\MencacheDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\Commons.dll
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\log4net.dll
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\Memcached.ClientLibrary.dll
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\bin\Debug\Memcached.ClientLibrary.pdb
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\obj\Debug\MencacheDemo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\obj\Debug\MencacheDemo.exe
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\obj\Debug\MencacheDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\MencacheDemo\obj\Debug\MencacheDemo.csprojResolveAssemblyReference.cache

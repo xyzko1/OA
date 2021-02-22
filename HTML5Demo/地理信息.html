@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="http://maps.google.cn/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+    function getElem(id) {
+        return typeof id == 'string' ? document.getElementById(id) : id;
+    }
+
+    function success(position) {
+        var latlng = new google.maps.latlng(position.coords.latitude, position.coords.longitude);
+        var myOptions = {//Google Earth地图的 api设置选项
+            zoom: 15,
+            center: latlng,
+            mapTypeControl: false,
+            navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
+            mapTypeId: google.maps.mapTypeId.ROADMAP
+        };
+
+            var map=google.maps.Map(document.getElementById("mapcanvas"), myOptions);
+            var marker= new google.maps.Marker({
+                position: latlng,
+                map: map,
+                title:"你在这里！"
+            });
+
+    }
+    if (navigator.geolocation) {//获取本地地理信息
+        navigator.geolocation.getCurrentPosition(success, function (error) {
+            alert(error);
+        });
+    }
+    else {
+        alert("您当前使用的浏览器不支持geolocation服务");
+    }
+</script>
+</head>
+<body>
+
+</body>
+</html>

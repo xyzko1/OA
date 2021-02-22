@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        var work = new Worker("work.js");//多线程后台计算
+
+        $(function () {
+            $("#btnCalc").click(function (e) {
+                work.postMessage($("#demoData").val());
+            });
+        });
+
+        work.onmessage = function (event) {
+            alert(event.data);
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="demoData" id="demoData" />
+    <input type="button" value="计算和" id="btnCalc" />
+</body>
+</html>

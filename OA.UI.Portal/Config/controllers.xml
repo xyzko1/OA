@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object  type="OA.UI.Portal.Controllers.UserLoginController,OA.UI.Portal" singleton="false">
+    <property name="UserInfoService" ref="UserInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.UserInfoController,OA.UI.Portal" singleton="false">
+    <property name="UserInfoService" ref="UserInfoService"/>
+    <property name="roleInfoService" ref="RoleInfoService"/>
+    <property name="actionInfoService" ref="ActionInfoService"/>
+    <property name="r_UserInfo_ActionInfoService" ref="R_UserInfo_ActionInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.OrderInfoController,OA.UI.Portal" singleton="false">
+    <property name="OrderInfoService" ref="OrderInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.RegisterUserInfoController,OA.UI.Portal" singleton="false">  
+    <property name="UserInfoService" ref="UserInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.ForgetUserInfoController,OA.UI.Portal" singleton="false">
+    <property name="UserInfoService" ref="UserInfoService"/>
+  </object>
+    <object  type="OA.UI.Portal.Controllers.ActionInfoController,OA.UI.Portal" singleton="false">
+      <property name="actionInfoService" ref="ActionInfoService"/>
+      <property name="roleInfoService" ref="RoleInfoService"/>
+    </object>
+  <object  type="OA.UI.Portal.Controllers.RoleInfoController,OA.UI.Portal" singleton="false">
+    <property name="roleInfoService" ref="RoleInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.WFTempController,OA.UI.Portal" singleton="false">
+    <property name="wF_TempService" ref="WF_TempService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.WFInstanceController,OA.UI.Portal" singleton="false">
+    <property name="wF_TempService" ref="WF_TempService"/>
+    <property name="wF_InstanceService" ref="WF_InstanceService"/>
+    <property name="wF_StepService" ref="WF_StepService"/>
+    <property name="UserInfoService" ref="UserInfoService"/>
+  </object>
+  <object  type="OA.UI.Portal.Controllers.WFTempController,OA.UI.Portal" singleton="false">
+    <property name="wF_TempService" ref="WF_TempService"/>
+  </object>
+  </objects>

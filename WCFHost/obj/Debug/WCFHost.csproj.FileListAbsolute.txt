@@ -1,0 +1,13 @@
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCFHost.exe.config
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCFHost.exe
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCFHost.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.BLL.dll
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.Model.dll
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.BLL.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.IBLL.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFHost\bin\Debug\WCF.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\WCFHost\obj\Debug\WCFHost.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\WCFHost\obj\Debug\WCFHost.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\WCFHost\obj\Debug\WCFHost.exe
+F:\VSWorkSpace\WebTest1\OA\WCFHost\obj\Debug\WCFHost.pdb

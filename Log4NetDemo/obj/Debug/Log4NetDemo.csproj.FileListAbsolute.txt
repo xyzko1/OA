@@ -1,0 +1,9 @@
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\bin\Debug\Log4NetDemo.exe.config
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\bin\Debug\Log4NetDemo.exe
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\bin\Debug\Log4NetDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\bin\Debug\log4net.dll
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\bin\Debug\log4net.xml
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\obj\Debug\Log4NetDemo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\obj\Debug\Log4NetDemo.exe
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\obj\Debug\Log4NetDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\Log4NetDemo\obj\Debug\Log4NetDemo.csprojResolveAssemblyReference.cache

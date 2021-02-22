@@ -1,0 +1,14 @@
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NhDemo.exe.config
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NhDemo.exe
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NhDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\NhDemo\obj\Debug\NhDemo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\NhDemo\obj\Debug\NhDemo.exe
+F:\VSWorkSpace\WebTest1\OA\NhDemo\obj\Debug\NhDemo.pdb
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\Iesi.Collections.dll
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NHibernate.dll
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\Iesi.Collections.pdb
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\Iesi.Collections.xml
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NHibernate.pdb
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\NHibernate.xml
+F:\VSWorkSpace\WebTest1\OA\NhDemo\bin\Debug\App.config
+F:\VSWorkSpace\WebTest1\OA\NhDemo\obj\Debug\NhDemo.csprojResolveAssemblyReference.cache

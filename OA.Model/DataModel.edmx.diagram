@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b99017f8a77d4c57b9eb4a63637bcb08" Name="Diagram1" >
+        <EntityTypeShape EntityType="DataModel.ActionInfo" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="DataModel.OrderInfo" Width="1.5" PointX="7.5" PointY="3.625" />
+        <EntityTypeShape EntityType="DataModel.R_UserInfo_ActionInfo" Width="1.5" PointX="3" PointY="4.875" />
+        <EntityTypeShape EntityType="DataModel.RoleInfo" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="DataModel.UserInfo" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModel.UserInfoEXt" Width="1.5" PointX="7.25" PointY="6" />
+        <AssociationConnector Association="DataModel.FK_UserInfoOrderInfo" />
+        <AssociationConnector Association="DataModel.R_UserInfo_ActionInfoActionInfo" />
+        <AssociationConnector Association="DataModel.RoleInfoActionInfo" />
+        <AssociationConnector Association="DataModel.UserInfoR_UserInfo_ActionInfo" />
+        <AssociationConnector Association="DataModel.UserInfoRoleInfo" />
+        <EntityTypeShape EntityType="DataModel.WF_Temp" Width="1.5" PointX="0.5" PointY="7" />
+        <EntityTypeShape EntityType="DataModel.WF_Instance" Width="1.5" PointX="3.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DataModel.FileInfo" Width="1.5" PointX="5.625" PointY="7.5" />
+        <AssociationConnector Association="DataModel.WF_InstanceFileInfo" />
+        <AssociationConnector Association="DataModel.WF_TempWF_Instance" />
+        <EntityTypeShape EntityType="DataModel.WF_Step" Width="1.5" PointX="1.125" PointY="10" />
+        <AssociationConnector Association="DataModel.WF_InstanceWF_Step" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

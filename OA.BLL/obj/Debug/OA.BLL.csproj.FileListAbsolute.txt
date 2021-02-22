@@ -1,0 +1,17 @@
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\obj\Debug\OA.BLL.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.BLL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.BLL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.DALFactory.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.EFDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.IBLL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.IDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\EntityFramework.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.DALFactory.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.EFDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.IBLL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.IDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\bin\Debug\EntityFramework.xml
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\obj\Debug\OA.BLL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.BLL\obj\Debug\OA.BLL.pdb

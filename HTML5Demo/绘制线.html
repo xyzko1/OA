@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <canvas id="demoCanvas" width="500" height="500"> </canvas>
+    </div>
+    <script type="text/javascript">
+            //获取canvas元素
+            var canvasDom = document.getElementById("demoCanvas");
+            //获取上下文
+        var context = canvasDom.getContext('2d');
+
+        context.fillStyle = "red";
+        context.beginPath();
+        context.lineWidth = 2;
+        context.moveTo(1, 1);
+        context.lineTo(1,101);
+        context.lineTo(101, 101);
+        context.lineTo(1, 1);
+        context.closePath();
+
+        context.fill();
+
+        </script>
+</body>
+</html>

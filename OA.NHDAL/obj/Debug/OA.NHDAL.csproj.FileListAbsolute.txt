@@ -1,0 +1,12 @@
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\obj\Debug\OA.NHDAL.csprojResolveAssemblyReference.cache
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.NHDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.NHDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.IDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.Model.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\EntityFramework.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.IDAL.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\OA.Model.pdb
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\EntityFramework.xml
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\obj\Debug\OA.NHDAL.dll
+F:\VSWorkSpace\WebTest1\OA\OA.NHDAL\obj\Debug\OA.NHDAL.pdb

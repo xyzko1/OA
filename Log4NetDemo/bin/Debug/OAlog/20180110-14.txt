@@ -1,0 +1,16 @@
+
+ 
+记录时间：2018-01-10 14:47:41,400 
+线程ID:[1] 
+日志级别：  DEBUG 
+出错类：DemoWritter property: [(null)] - 
+错误描述：debug
+ 
+
+ 
+记录时间：2018-01-10 14:47:41,435 
+线程ID:[1] 
+日志级别：  ERROR 
+出错类：DemoWritter property: [(null)] - 
+错误描述：error
+ 

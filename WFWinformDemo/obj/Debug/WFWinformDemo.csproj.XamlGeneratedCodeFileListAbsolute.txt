@@ -1,0 +1,10 @@
+obj\Debug\_WFWinformDemo.g.cs
+obj\Debug\DemoActivity.g.cs
+obj\Debug\StateActivity.g.cs
+obj\Debug\StateMoneyActivity.g.cs
+obj\Debug\WFWinformDemo_DemoActivity_BeforeInitializeComponentHelper.cs
+obj\Debug\WFWinformDemo_StateActivity_BeforeInitializeComponentHelper.cs
+obj\Debug\WFWinformDemo_StateMoneyActivity_BeforeInitializeComponentHelper.cs
+F:\VSWorkSpace\WebTest1\OA\WFWinformDemo\obj\Debug\WFWinformDemo_DemoActivity_CompiledExpressionRoot.cs
+F:\VSWorkSpace\WebTest1\OA\WFWinformDemo\obj\Debug\WFWinformDemo_StateActivity_CompiledExpressionRoot.cs
+F:\VSWorkSpace\WebTest1\OA\WFWinformDemo\obj\Debug\WFWinformDemo_StateMoneyActivity_CompiledExpressionRoot.cs

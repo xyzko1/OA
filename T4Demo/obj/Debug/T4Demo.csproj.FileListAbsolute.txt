@@ -1,0 +1,7 @@
+F:\VSWorkSpace\WebTest1\OA\T4Demo\bin\Debug\T4Demo.exe.config
+F:\VSWorkSpace\WebTest1\OA\T4Demo\bin\Debug\T4Demo.exe
+F:\VSWorkSpace\WebTest1\OA\T4Demo\bin\Debug\T4Demo.pdb
+F:\VSWorkSpace\WebTest1\OA\T4Demo\obj\Debug\T4Demo.csproj.CoreCompileInputs.cache
+F:\VSWorkSpace\WebTest1\OA\T4Demo\obj\Debug\T4Demo.exe
+F:\VSWorkSpace\WebTest1\OA\T4Demo\obj\Debug\T4Demo.pdb
+F:\VSWorkSpace\WebTest1\OA\T4Demo\obj\Debug\T4Demo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,2 @@
+StateMoneyActivity.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

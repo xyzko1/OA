@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        a:link {
+            font: 14 宋体;
+            color: Blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: Yellow;
+            text-decoration: underline;
+            font-size: 50px;
+        }
+
+        a:active {
+            color: Red;
+            text-decoration: line-through;
+        }
+
+        a:visited {
+            color: black;
+            font: 14 幼圆;
+        }
+
+        div::first-letter {
+            font-size: 2em
+        }
+        /*文档流*/
+        #dv1 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            left: 320px;
+            top: 320px;
+        }
+
+        #dv2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 340px;
+            top: 340px;
+        }
+
+        #dv3 {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+            left:360px;
+            top: 360px;
+        }
+
+        #dvHead {
+            width: 100%;
+            height: 40px;
+            background-color: yellow;
+        }
+
+        #dvLeft {
+            width: 20%;
+            height: 40px;
+            background-color: red;
+            float:left;
+        }
+
+        #dvCenter {
+            width: 60%;
+            height: 40px;
+            background-color: blue;
+            float: left;
+        }
+
+        #dvRight {
+            width: 20%;
+            height: 40px;
+            background-color: bisque;
+            float: left;
+        }
+
+        #dvBottom {
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.baidu.com">百度</a></li>
+        <li><a href="https://www.google.com">谷歌</a></li>
+        <li><a href="https://www.sina.com">新浪</a></li>
+    </ul>
+    <div style="text-indent:4em">
+        This autumn, 6000 residents will participate in the first phase of the project
+    </div>
+    <div id="dv1"></div>
+    <div id="dv2"></div>
+    <div id="dv3"></div>
+
+    <div id="dvHead"></div>
+    <div id="dvContent">
+        <div id="dvLeft"></div>
+        <div id="dvCenter"></div>
+        <div id="dvRight"></div>
+    </div>
+    <div id="dvBottom"></div>
+</body>
+</html>
